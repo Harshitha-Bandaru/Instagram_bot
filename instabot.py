@@ -4,8 +4,8 @@ tags = ["quoteoftheday", "musings"]
 driver = webdriver.Chrome(executable_path="C://Users/Harshitha/Downloads/chromedriver.exe")
 driver.get("https://www.instagram.com")
 time.sleep(2)
-driver.find_element_by_name("username").send_keys("harshi__bandaru")
-driver.find_element_by_name("password").send_keys("Pragna@4547")
+driver.find_element_by_name("username").send_keys("_your_username_here")
+driver.find_element_by_name("password").send_keys("_your_password_here")
 #driver.find_element_by_xpath("\\button[@type=\"submit\"]").click() # to click on login button, it is of type submit
 driver.find_element_by_xpath("//button[contains(.,'Log In')]").click() #another way to click on login 
 time.sleep(3)
